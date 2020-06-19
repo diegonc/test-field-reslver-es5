@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "CommonJS",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "esnext",
+      "ESNext.AsyncIterable"
+    ],
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "keyofStringsOnly": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false, // Avoid noise in our resolvers when we use DI
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*"]
+}
